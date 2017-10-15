@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context="yuni.tugastiga.tampil">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biodata Anda"
+            android:id="@+id/judul1"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul1"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:text="Nama Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:text="Nama anda"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/namatampil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namatampil"
+            android:id="@+id/alamatt"
+            android:textStyle="bold"
+            android:text="Alamat Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alamatt"
+            android:text="Alamat anda"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textStyle="bold"
+            android:id="@+id/alamattampil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alamattampil"
+            android:id="@+id/tgll"
+            android:textStyle="bold"
+            android:text="Tanggal Lahir Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tgll"
+            android:text="Tanggal Lahir anda"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/tanggaltampil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tanggaltampil"
+            android:id="@+id/jklammin"
+            android:textStyle="bold"
+            android:text="Jenis Kelamin Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jklammin"
+            android:text="Jenis Kelamin anda"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/jktampil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jktampil"
+            android:id="@+id/agama"
+            android:textStyle="bold"
+            android:text="Agama Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agama"
+            android:text="Agama anda"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textStyle="bold"
+            android:id="@+id/agamatampil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agamatampil"
+            android:id="@+id/username"
+            android:textStyle="bold"
+            android:text="Username Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:text="Username anda"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/usertampil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usertampil"
+            android:id="@+id/pwdd"
+            android:textStyle="bold"
+            android:text="Password Anda :"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pwdd"
+            android:text="Password anda"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/pwdtampil"/>
+
+        <Button
+            android:id="@+id/kembali"
+            android:layout_below="@id/pwdtampil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_below="@id/kembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

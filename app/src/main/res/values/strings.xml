@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugas3</string>
+    <string-array name="agama">
+        <item>--Pilih Agama Yang Di Yakini--</item>
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+
+    </string-array>
+
+</resources>
